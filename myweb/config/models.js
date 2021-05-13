@@ -13,10 +13,7 @@
  * https://sailsjs.com/docs/concepts/models-and-orm/model-settings
  */
 
-module.exports.models = {
-    connection: 'mydb',
-    
-
+module.exports.models = {  
 
   /***************************************************************************
   *                                                                          *
@@ -55,7 +52,7 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
 
-  migrate: 'alter',
+  migrate: 'drop',
 
 
   /***************************************************************************
@@ -121,6 +118,5 @@ module.exports.models = {
   ***************************************************************************/
 
   cascadeOnDestroy: true
-
-
+  
 };
